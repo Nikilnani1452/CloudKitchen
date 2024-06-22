@@ -1,6 +1,6 @@
-# Generated with Cloud MTA Build Tool version 1.2.27
+# Generated with Cloud MTA Build Tool version 1.2.28
 version=0.0.1
-MBT=C:/Users/User/AppData/Roaming/npm/node_modules/mbt/unpacked_bin/mbt.exe
+MBT=C:/Users/NANI/AppData/Roaming/npm/node_modules/mbt/unpacked_bin/mbt.exe
 ifndef p
 $(error platform flag is expected. e.g. use make -f makefile.mta p=cf)
 endif
