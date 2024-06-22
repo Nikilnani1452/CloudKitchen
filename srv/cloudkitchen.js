@@ -17,7 +17,6 @@ module.exports = cds.service.impl(async function(){
             })
         });
         
-        //console.log(res);
         return res;
     });
 
