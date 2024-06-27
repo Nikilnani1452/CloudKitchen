@@ -19,16 +19,13 @@ entity Kitchen: managed, cuid {
 }
 
 entity ProductLocal: managed {
-
+//product
     @title: 'Product ID'
     key Product: String(40);
     @title:'Product Type'
-    @readonly
     ProductType: String(4);
-    @readonly
     @title: 'Base Unit'
     BaseUnit: String(3);
-    @readonly
     @title: 'Product Group'
     ProductGroup: String(18);
     @title: 'Product Description'
